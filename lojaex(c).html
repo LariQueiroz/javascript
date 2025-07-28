@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Elaborar um programa para uma loja, o qual leia o preço de um produto e
+informe as opções de pagamento da loja. Calcule e informe o valor para
+pagamento à vista com 10% de desconto e o valor em 3x.">
+    <title>Loja</title>
+</head>
+<body>
+   <script>
+    let preço = Number(prompt("Valor do produto "));
+    let desconto = preço - (preço / 10);
+    let parcelado = preço / 3;
+    alert("Valor à vista: "+ desconto+ ". Valor em 3x: "+parcelado);
+   </script> 
+</body>
+</html>
