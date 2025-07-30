@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" Uma fábrica de camisetas produz os tamanhos pequeno, médio e grande, cada uma sendo vendida respectivamente por 10, 12 e 15 reais. Construa um programa em javascript em que o usuário forneça a quantidade de camisetas pequenas, médias e grandes referentes a uma venda, e a máquina informe quanto será o valor arrecadado.">
+    <title>Preço das camisetas arrecadadas</title>
+</head>
+<body>
+    <script>
+        let pequenas = Number(prompt("Insira a quantidade de camisetas pequenas arrecadadas: "));
+        let médias = Number(prompt("Insira a quantidade de camisetas médias arrecadadas: "));
+        let grandes = Number(prompt("Insira a quantidade de camisetas grandes arrecadadas: "));
+        let valor = (pequenas * 25) + (médias * 30) + (grandes * 35);
+        alert("O valor arrecadado nessa compra é de: R$"+valor);
+    </script>
+</body>
+</html>
